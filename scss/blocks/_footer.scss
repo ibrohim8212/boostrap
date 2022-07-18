@@ -1,0 +1,24 @@
+.footer{
+  background-color: #343a40;
+  padding-bottom: 120px;
+  padding-top: 72px;
+}
+
+.footer__title-mini{
+  color: #ADB5BD;
+  margin-top: 36px;
+}
+
+.footer__title{
+  margin-bottom: 48px;
+}
+
+.footer__link{
+  color: #adb5bd;
+  transition: color .2s ease;
+  text-decoration: none;
+}
+
+.footer__link:hover{
+  color: #fff;
+}
