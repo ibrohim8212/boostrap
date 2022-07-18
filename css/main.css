@@ -357,15 +357,7 @@ body {
 }
 
 .top-nav {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  background-color: #00BAF0;
-  background: #495057;
-  color: #FFF;
-  height: 50px;
-  padding: 1em;
+  display: none;
 }
 
 .menu {
@@ -432,6 +424,17 @@ body {
 }
 
 @media screen and (max-width: 992px) {
+  .top-nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #00BAF0;
+    background: #495057;
+    color: #FFF;
+    height: 50px;
+    padding: 1em;
+  }
   .menu-button-container {
     display: flex;
   }
